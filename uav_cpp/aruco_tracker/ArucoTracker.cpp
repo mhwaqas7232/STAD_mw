@@ -17,7 +17,7 @@ public:
     // Subscriber for the image topic
     image_subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
       "/image_topic", 10, std::bind(&ArucoTrackerNode::image_callback, this, std::placeholders::_1));
-    publisher_ = this->create_publisher<std_msgs::msg::String>("/example_topic", 10);
+    publisher_ = this->create_publisher<std_msgs::msg::String>("/coordinates_topic", 1);
   }
 
 
