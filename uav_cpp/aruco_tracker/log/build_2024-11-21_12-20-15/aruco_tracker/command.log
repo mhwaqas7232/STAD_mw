@@ -1,0 +1,2 @@
+Invoking command in '/root/STAD_mw/uav_cpp/aruco_tracker/build/aruco_tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/STAD_mw/uav_cpp/aruco_tracker -DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/aruco_tracker/install/aruco_tracker
+Invoked command in '/root/STAD_mw/uav_cpp/aruco_tracker/build/aruco_tracker' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/STAD_mw/uav_cpp/aruco_tracker -DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/aruco_tracker/install/aruco_tracker
