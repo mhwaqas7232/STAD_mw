@@ -1,0 +1,6 @@
+Invoking command in '/root/STAD_mw/uav_cpp/build/uav_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/STAD_mw/uav_cpp -DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/install/uav_cpp
+Invoked command in '/root/STAD_mw/uav_cpp/build/uav_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/STAD_mw/uav_cpp -DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/install/uav_cpp
+Invoking command in '/root/STAD_mw/uav_cpp/build/uav_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/STAD_mw/uav_cpp/build/uav_cpp -- -j8 -l8
+Invoked command in '/root/STAD_mw/uav_cpp/build/uav_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/STAD_mw/uav_cpp/build/uav_cpp -- -j8 -l8
+Invoking command in '/root/STAD_mw/uav_cpp/build/uav_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/STAD_mw/uav_cpp/build/uav_cpp
+Invoked command in '/root/STAD_mw/uav_cpp/build/uav_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/STAD_mw/uav_cpp/build/uav_cpp

@@ -1,0 +1,91 @@
+[0.059s] Invoking command in '/root/STAD_mw/uav_cpp/build/uav_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/STAD_mw/uav_cpp -DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/install/uav_cpp
+[0.743s] -- The C compiler identification is GNU 11.4.0
+[1.133s] -- The CXX compiler identification is GNU 11.4.0
+[1.186s] -- Detecting C compiler ABI info
+[1.431s] -- Detecting C compiler ABI info - done
+[1.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.466s] -- Detecting C compile features
+[1.470s] -- Detecting C compile features - done
+[1.484s] -- Detecting CXX compiler ABI info
+[1.753s] -- Detecting CXX compiler ABI info - done
+[1.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.790s] -- Detecting CXX compile features
+[1.791s] -- Detecting CXX compile features - done
+[1.872s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.160s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.587s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.902s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.940s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.994s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.310s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.577s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.597s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.125s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.267s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.524s] -- Looking for pthread.h
+[5.793s] -- Looking for pthread.h - found
+[5.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.034s] -- Found Threads: TRUE  
+[6.437s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.764s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.783s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.784s] -- Configured cppcheck include dirs: 
+[6.784s] -- Configured cppcheck exclude dirs and/or files: 
+[6.800s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.800s] -- Configured cpplint exclude dirs and/or files: 
+[6.809s] -- Added test 'lint_cmake' to check CMake code style
+[6.825s] -- Added test 'uncrustify' to check C / C++ code style
+[6.826s] -- Configured uncrustify additional arguments: 
+[6.831s] -- Added test 'xmllint' to check XML markup files
+[6.843s] -- Configuring done
+[6.890s] -- Generating done
+[6.897s] -- Build files have been written to: /root/STAD_mw/uav_cpp/build/uav_cpp
+[6.921s] Invoked command in '/root/STAD_mw/uav_cpp/build/uav_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/STAD_mw/uav_cpp -DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/install/uav_cpp
+[6.928s] Invoking command in '/root/STAD_mw/uav_cpp/build/uav_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/STAD_mw/uav_cpp/build/uav_cpp -- -j8 -l8
+[7.066s] [ 66%] [32mBuilding CXX object CMakeFiles/uav_main.dir/src/uav_main/main.cpp.o[0m
+[7.067s] [ 66%] [32mBuilding CXX object CMakeFiles/uav_main.dir/src/uav_main/PID.cpp.o[0m
+[18.326s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:[m[K In function ‘[01m[Kbool offb_ctrl_pos_global(mavsdk::Offboard&, mavsdk::Telemetry&)[m[K’:
+[18.326s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:164:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffboard_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.327s]   164 |     Offboard::Result [01;35m[Koffboard_result[m[K = offboard.start();
+[18.327s]       |                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.328s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:43:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_z[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.329s]    43 | double [01;35m[Ktarget_z[m[K = 0;
+[18.329s]       |        [01;35m[K^~~~~~~~[m[K
+[18.329s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:96:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_x[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.329s]    96 |         double [01;35m[Kcurrent_x[m[K = X;
+[18.330s]       |                [01;35m[K^~~~~~~~~[m[K
+[18.330s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:97:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.330s]    97 |         double [01;35m[Kcurrent_y[m[K = Y;
+[18.331s]       |                [01;35m[K^~~~~~~~~[m[K
+[18.382s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:[m[K In function ‘[01m[Kvoid command_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[18.382s] [01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:194:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.382s]   194 |             ConnectionResult [01;35m[Kconnection_result[m[K = mavsdk.add_any_connection("udp://:14540");
+[18.382s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[35.411s] [100%] [32m[1mLinking CXX executable uav_main[0m
+[37.809s] [100%] Built target uav_main
+[37.837s] Invoked command in '/root/STAD_mw/uav_cpp/build/uav_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/STAD_mw/uav_cpp/build/uav_cpp -- -j8 -l8
+[37.939s] Invoking command in '/root/STAD_mw/uav_cpp/build/uav_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/STAD_mw/uav_cpp/build/uav_cpp
+[37.957s] -- Install configuration: ""
+[37.958s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/lib/uav_cpp/uav_main
+[37.967s] -- Set runtime path of "/root/STAD_mw/uav_cpp/install/uav_cpp/lib/uav_cpp/uav_main" to ""
+[37.968s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/ament_index/resource_index/package_run_dependencies/uav_cpp
+[37.972s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/ament_index/resource_index/parent_prefix_path/uav_cpp
+[37.974s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/ament_prefix_path.sh
+[37.974s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/ament_prefix_path.dsv
+[37.975s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/path.sh
+[37.977s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/path.dsv
+[37.978s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.bash
+[37.979s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.sh
+[37.980s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.zsh
+[37.981s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.dsv
+[37.981s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/package.dsv
+[37.982s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/ament_index/resource_index/packages/uav_cpp
+[37.983s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.984s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/cmake/uav_cppConfig.cmake
+[37.985s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/cmake/uav_cppConfig-version.cmake
+[37.986s] -- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/package.xml
+[37.993s] Invoked command in '/root/STAD_mw/uav_cpp/build/uav_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/STAD_mw/uav_cpp/build/uav_cpp

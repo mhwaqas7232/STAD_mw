@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.002796] (uav_cpp) JobQueued: {'identifier': 'uav_cpp', 'dependencies': OrderedDict()}
+[0.003909] (uav_cpp) JobStarted: {'identifier': 'uav_cpp'}
+[0.049285] (uav_cpp) JobProgress: {'identifier': 'uav_cpp', 'progress': 'cmake'}
+[0.050912] (uav_cpp) Command: {'cmd': ['/usr/bin/cmake', '/root/STAD_mw/uav_cpp', '-DCMAKE_INSTALL_PREFIX=/root/STAD_mw/uav_cpp/install/uav_cpp'], 'cwd': '/root/STAD_mw/uav_cpp/build/uav_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/root/STAD_mw'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/root/fastdds.xml'), ('DISPLAY', '10.132.175.149:0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/STAD_mw/uav_cpp/build/uav_cpp'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099337] (-) TimerEvent: {}
+[0.199888] (-) TimerEvent: {}
+[0.300552] (-) TimerEvent: {}
+[0.401074] (-) TimerEvent: {}
+[0.501911] (-) TimerEvent: {}
+[0.602811] (-) TimerEvent: {}
+[0.703561] (-) TimerEvent: {}
+[0.746522] (uav_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.803751] (-) TimerEvent: {}
+[0.904644] (-) TimerEvent: {}
+[1.005492] (-) TimerEvent: {}
+[1.106199] (-) TimerEvent: {}
+[1.136655] (uav_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.190196] (uav_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.206544] (-) TimerEvent: {}
+[1.307272] (-) TimerEvent: {}
+[1.407961] (-) TimerEvent: {}
+[1.435164] (uav_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.467430] (uav_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.469329] (uav_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.473481] (uav_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.487247] (uav_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.508224] (-) TimerEvent: {}
+[1.609038] (-) TimerEvent: {}
+[1.709813] (-) TimerEvent: {}
+[1.756359] (uav_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.792457] (uav_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.793388] (uav_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.795120] (uav_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.810105] (-) TimerEvent: {}
+[1.875531] (uav_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.910334] (-) TimerEvent: {}
+[2.010967] (-) TimerEvent: {}
+[2.111633] (-) TimerEvent: {}
+[2.212391] (-) TimerEvent: {}
+[2.313188] (-) TimerEvent: {}
+[2.413765] (-) TimerEvent: {}
+[2.514446] (-) TimerEvent: {}
+[2.615133] (-) TimerEvent: {}
+[2.715875] (-) TimerEvent: {}
+[2.816475] (-) TimerEvent: {}
+[2.917592] (-) TimerEvent: {}
+[3.018271] (-) TimerEvent: {}
+[3.118890] (-) TimerEvent: {}
+[3.163785] (uav_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.219152] (-) TimerEvent: {}
+[3.319822] (-) TimerEvent: {}
+[3.420436] (-) TimerEvent: {}
+[3.521133] (-) TimerEvent: {}
+[3.590717] (uav_cpp) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[3.621404] (-) TimerEvent: {}
+[3.722043] (-) TimerEvent: {}
+[3.822788] (-) TimerEvent: {}
+[3.905335] (uav_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.922988] (-) TimerEvent: {}
+[3.943265] (uav_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.997291] (uav_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.023171] (-) TimerEvent: {}
+[4.114279] (uav_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.123402] (-) TimerEvent: {}
+[4.218716] (uav_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.223579] (-) TimerEvent: {}
+[4.313827] (uav_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.323860] (-) TimerEvent: {}
+[4.424490] (-) TimerEvent: {}
+[4.525135] (-) TimerEvent: {}
+[4.580430] (uav_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.600605] (uav_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.625399] (-) TimerEvent: {}
+[4.726053] (-) TimerEvent: {}
+[4.826715] (-) TimerEvent: {}
+[4.927436] (-) TimerEvent: {}
+[5.028558] (-) TimerEvent: {}
+[5.128975] (uav_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.129590] (-) TimerEvent: {}
+[5.230136] (-) TimerEvent: {}
+[5.270435] (uav_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.330341] (-) TimerEvent: {}
+[5.430890] (-) TimerEvent: {}
+[5.470538] (uav_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.528002] (uav_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.531125] (-) TimerEvent: {}
+[5.631901] (-) TimerEvent: {}
+[5.732608] (-) TimerEvent: {}
+[5.796642] (uav_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.798329] (uav_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.832934] (-) TimerEvent: {}
+[5.933727] (-) TimerEvent: {}
+[6.032515] (uav_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.033990] (-) TimerEvent: {}
+[6.037384] (uav_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.134282] (-) TimerEvent: {}
+[6.235100] (-) TimerEvent: {}
+[6.335913] (-) TimerEvent: {}
+[6.436641] (-) TimerEvent: {}
+[6.440200] (uav_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.536917] (-) TimerEvent: {}
+[6.637649] (-) TimerEvent: {}
+[6.738360] (-) TimerEvent: {}
+[6.767513] (uav_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.786809] (uav_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.787391] (uav_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.787897] (uav_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.803158] (uav_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.803726] (uav_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.812206] (uav_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.829035] (uav_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.829536] (uav_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.834711] (uav_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.838583] (-) TimerEvent: {}
+[6.846582] (uav_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.894021] (uav_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[6.900309] (uav_cpp) StdoutLine: {'line': b'-- Build files have been written to: /root/STAD_mw/uav_cpp/build/uav_cpp\n'}
+[6.924734] (uav_cpp) CommandEnded: {'returncode': 0}
+[6.926622] (uav_cpp) JobProgress: {'identifier': 'uav_cpp', 'progress': 'build'}
+[6.930831] (uav_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/STAD_mw/uav_cpp/build/uav_cpp', '--', '-j8', '-l8'], 'cwd': '/root/STAD_mw/uav_cpp/build/uav_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/root/STAD_mw'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/root/fastdds.xml'), ('DISPLAY', '10.132.175.149:0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/STAD_mw/uav_cpp/build/uav_cpp'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.938893] (-) TimerEvent: {}
+[7.039589] (-) TimerEvent: {}
+[7.070009] (uav_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/uav_main.dir/src/uav_main/main.cpp.o\x1b[0m\n'}
+[7.070442] (uav_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/uav_main.dir/src/uav_main/PID.cpp.o\x1b[0m\n'}
+[7.139833] (-) TimerEvent: {}
+[7.240612] (-) TimerEvent: {}
+[7.341312] (-) TimerEvent: {}
+[7.442178] (-) TimerEvent: {}
+[7.543121] (-) TimerEvent: {}
+[7.643765] (-) TimerEvent: {}
+[7.744460] (-) TimerEvent: {}
+[7.845119] (-) TimerEvent: {}
+[7.945594] (-) TimerEvent: {}
+[8.046169] (-) TimerEvent: {}
+[8.146746] (-) TimerEvent: {}
+[8.247403] (-) TimerEvent: {}
+[8.347996] (-) TimerEvent: {}
+[8.448623] (-) TimerEvent: {}
+[8.549223] (-) TimerEvent: {}
+[8.649883] (-) TimerEvent: {}
+[8.750550] (-) TimerEvent: {}
+[8.851099] (-) TimerEvent: {}
+[8.951741] (-) TimerEvent: {}
+[9.052529] (-) TimerEvent: {}
+[9.153160] (-) TimerEvent: {}
+[9.254696] (-) TimerEvent: {}
+[9.356452] (-) TimerEvent: {}
+[9.457011] (-) TimerEvent: {}
+[9.557595] (-) TimerEvent: {}
+[9.658342] (-) TimerEvent: {}
+[9.758984] (-) TimerEvent: {}
+[9.859714] (-) TimerEvent: {}
+[9.960355] (-) TimerEvent: {}
+[10.061016] (-) TimerEvent: {}
+[10.161724] (-) TimerEvent: {}
+[10.262358] (-) TimerEvent: {}
+[10.362952] (-) TimerEvent: {}
+[10.463548] (-) TimerEvent: {}
+[10.564159] (-) TimerEvent: {}
+[10.664771] (-) TimerEvent: {}
+[10.765377] (-) TimerEvent: {}
+[10.865929] (-) TimerEvent: {}
+[10.966647] (-) TimerEvent: {}
+[11.067190] (-) TimerEvent: {}
+[11.167766] (-) TimerEvent: {}
+[11.268341] (-) TimerEvent: {}
+[11.368999] (-) TimerEvent: {}
+[11.469682] (-) TimerEvent: {}
+[11.570257] (-) TimerEvent: {}
+[11.670982] (-) TimerEvent: {}
+[11.771634] (-) TimerEvent: {}
+[11.872392] (-) TimerEvent: {}
+[11.973118] (-) TimerEvent: {}
+[12.073896] (-) TimerEvent: {}
+[12.174479] (-) TimerEvent: {}
+[12.275203] (-) TimerEvent: {}
+[12.375837] (-) TimerEvent: {}
+[12.476671] (-) TimerEvent: {}
+[12.577409] (-) TimerEvent: {}
+[12.678170] (-) TimerEvent: {}
+[12.778857] (-) TimerEvent: {}
+[12.879367] (-) TimerEvent: {}
+[12.979952] (-) TimerEvent: {}
+[13.080581] (-) TimerEvent: {}
+[13.181182] (-) TimerEvent: {}
+[13.281803] (-) TimerEvent: {}
+[13.382454] (-) TimerEvent: {}
+[13.483112] (-) TimerEvent: {}
+[13.583763] (-) TimerEvent: {}
+[13.684388] (-) TimerEvent: {}
+[13.785172] (-) TimerEvent: {}
+[13.885784] (-) TimerEvent: {}
+[13.986548] (-) TimerEvent: {}
+[14.087336] (-) TimerEvent: {}
+[14.188150] (-) TimerEvent: {}
+[14.288926] (-) TimerEvent: {}
+[14.389643] (-) TimerEvent: {}
+[14.490271] (-) TimerEvent: {}
+[14.590883] (-) TimerEvent: {}
+[14.691625] (-) TimerEvent: {}
+[14.792348] (-) TimerEvent: {}
+[14.893092] (-) TimerEvent: {}
+[14.993779] (-) TimerEvent: {}
+[15.094527] (-) TimerEvent: {}
+[15.195482] (-) TimerEvent: {}
+[15.296274] (-) TimerEvent: {}
+[15.396996] (-) TimerEvent: {}
+[15.497540] (-) TimerEvent: {}
+[15.598201] (-) TimerEvent: {}
+[15.698922] (-) TimerEvent: {}
+[15.799510] (-) TimerEvent: {}
+[15.900218] (-) TimerEvent: {}
+[16.000912] (-) TimerEvent: {}
+[16.101726] (-) TimerEvent: {}
+[16.202394] (-) TimerEvent: {}
+[16.302955] (-) TimerEvent: {}
+[16.403680] (-) TimerEvent: {}
+[16.504429] (-) TimerEvent: {}
+[16.605069] (-) TimerEvent: {}
+[16.705724] (-) TimerEvent: {}
+[16.806347] (-) TimerEvent: {}
+[16.907067] (-) TimerEvent: {}
+[17.007826] (-) TimerEvent: {}
+[17.108581] (-) TimerEvent: {}
+[17.209272] (-) TimerEvent: {}
+[17.310031] (-) TimerEvent: {}
+[17.410723] (-) TimerEvent: {}
+[17.511448] (-) TimerEvent: {}
+[17.612062] (-) TimerEvent: {}
+[17.712926] (-) TimerEvent: {}
+[17.813518] (-) TimerEvent: {}
+[17.914145] (-) TimerEvent: {}
+[18.014982] (-) TimerEvent: {}
+[18.115703] (-) TimerEvent: {}
+[18.216391] (-) TimerEvent: {}
+[18.317194] (-) TimerEvent: {}
+[18.329708] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool offb_ctrl_pos_global(mavsdk::Offboard&, mavsdk::Telemetry&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.330236] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:164:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Koffboard_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[18.330568] (uav_cpp) StderrLine: {'line': b'  164 |     Offboard::Result \x1b[01;35m\x1b[Koffboard_result\x1b[m\x1b[K = offboard.start();\n'}
+[18.331097] (uav_cpp) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.332074] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:43:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktarget_z\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[18.332464] (uav_cpp) StderrLine: {'line': b'   43 | double \x1b[01;35m\x1b[Ktarget_z\x1b[m\x1b[K = 0;\n'}
+[18.332693] (uav_cpp) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.332978] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:96:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcurrent_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[18.333221] (uav_cpp) StderrLine: {'line': b'   96 |         double \x1b[01;35m\x1b[Kcurrent_x\x1b[m\x1b[K = X;\n'}
+[18.333530] (uav_cpp) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.333777] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:97:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcurrent_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[18.334039] (uav_cpp) StderrLine: {'line': b'   97 |         double \x1b[01;35m\x1b[Kcurrent_y\x1b[m\x1b[K = Y;\n'}
+[18.334298] (uav_cpp) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.385079] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid command_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.385731] (uav_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:194:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kconnection_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[18.386083] (uav_cpp) StderrLine: {'line': b'  194 |             ConnectionResult \x1b[01;35m\x1b[Kconnection_result\x1b[m\x1b[K = mavsdk.add_any_connection("udp://:14540");\n'}
+[18.386333] (uav_cpp) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.417435] (-) TimerEvent: {}
+[18.518130] (-) TimerEvent: {}
+[18.618786] (-) TimerEvent: {}
+[18.719407] (-) TimerEvent: {}
+[18.820128] (-) TimerEvent: {}
+[18.920715] (-) TimerEvent: {}
+[19.021467] (-) TimerEvent: {}
+[19.122315] (-) TimerEvent: {}
+[19.222943] (-) TimerEvent: {}
+[19.323493] (-) TimerEvent: {}
+[19.424211] (-) TimerEvent: {}
+[19.525026] (-) TimerEvent: {}
+[19.625760] (-) TimerEvent: {}
+[19.726443] (-) TimerEvent: {}
+[19.827116] (-) TimerEvent: {}
+[19.927777] (-) TimerEvent: {}
+[20.028550] (-) TimerEvent: {}
+[20.129300] (-) TimerEvent: {}
+[20.229886] (-) TimerEvent: {}
+[20.330583] (-) TimerEvent: {}
+[20.431381] (-) TimerEvent: {}
+[20.532105] (-) TimerEvent: {}
+[20.632784] (-) TimerEvent: {}
+[20.733481] (-) TimerEvent: {}
+[20.834052] (-) TimerEvent: {}
+[20.934799] (-) TimerEvent: {}
+[21.035391] (-) TimerEvent: {}
+[21.136084] (-) TimerEvent: {}
+[21.236885] (-) TimerEvent: {}
+[21.337633] (-) TimerEvent: {}
+[21.438408] (-) TimerEvent: {}
+[21.539097] (-) TimerEvent: {}
+[21.639879] (-) TimerEvent: {}
+[21.740575] (-) TimerEvent: {}
+[21.841230] (-) TimerEvent: {}
+[21.941785] (-) TimerEvent: {}
+[22.042348] (-) TimerEvent: {}
+[22.142921] (-) TimerEvent: {}
+[22.243763] (-) TimerEvent: {}
+[22.344465] (-) TimerEvent: {}
+[22.445241] (-) TimerEvent: {}
+[22.545865] (-) TimerEvent: {}
+[22.646576] (-) TimerEvent: {}
+[22.747345] (-) TimerEvent: {}
+[22.848079] (-) TimerEvent: {}
+[22.948712] (-) TimerEvent: {}
+[23.049471] (-) TimerEvent: {}
+[23.150455] (-) TimerEvent: {}
+[23.251163] (-) TimerEvent: {}
+[23.351980] (-) TimerEvent: {}
+[23.452872] (-) TimerEvent: {}
+[23.553696] (-) TimerEvent: {}
+[23.654459] (-) TimerEvent: {}
+[23.755271] (-) TimerEvent: {}
+[23.855905] (-) TimerEvent: {}
+[23.956814] (-) TimerEvent: {}
+[24.057547] (-) TimerEvent: {}
+[24.158240] (-) TimerEvent: {}
+[24.258983] (-) TimerEvent: {}
+[24.359750] (-) TimerEvent: {}
+[24.460580] (-) TimerEvent: {}
+[24.561400] (-) TimerEvent: {}
+[24.662176] (-) TimerEvent: {}
+[24.762986] (-) TimerEvent: {}
+[24.863794] (-) TimerEvent: {}
+[24.964555] (-) TimerEvent: {}
+[25.065200] (-) TimerEvent: {}
+[25.165919] (-) TimerEvent: {}
+[25.266582] (-) TimerEvent: {}
+[25.367167] (-) TimerEvent: {}
+[25.467862] (-) TimerEvent: {}
+[25.568605] (-) TimerEvent: {}
+[25.669137] (-) TimerEvent: {}
+[25.769786] (-) TimerEvent: {}
+[25.870434] (-) TimerEvent: {}
+[25.971051] (-) TimerEvent: {}
+[26.071768] (-) TimerEvent: {}
+[26.172505] (-) TimerEvent: {}
+[26.273194] (-) TimerEvent: {}
+[26.373964] (-) TimerEvent: {}
+[26.474786] (-) TimerEvent: {}
+[26.575419] (-) TimerEvent: {}
+[26.675970] (-) TimerEvent: {}
+[26.776568] (-) TimerEvent: {}
+[26.877425] (-) TimerEvent: {}
+[26.978240] (-) TimerEvent: {}
+[27.078780] (-) TimerEvent: {}
+[27.179445] (-) TimerEvent: {}
+[27.280082] (-) TimerEvent: {}
+[27.380779] (-) TimerEvent: {}
+[27.481647] (-) TimerEvent: {}
+[27.582309] (-) TimerEvent: {}
+[27.682984] (-) TimerEvent: {}
+[27.783738] (-) TimerEvent: {}
+[27.884325] (-) TimerEvent: {}
+[27.985047] (-) TimerEvent: {}
+[28.085704] (-) TimerEvent: {}
+[28.186411] (-) TimerEvent: {}
+[28.286966] (-) TimerEvent: {}
+[28.387606] (-) TimerEvent: {}
+[28.488292] (-) TimerEvent: {}
+[28.589025] (-) TimerEvent: {}
+[28.689592] (-) TimerEvent: {}
+[28.790253] (-) TimerEvent: {}
+[28.890839] (-) TimerEvent: {}
+[28.991533] (-) TimerEvent: {}
+[29.092401] (-) TimerEvent: {}
+[29.193144] (-) TimerEvent: {}
+[29.293759] (-) TimerEvent: {}
+[29.394396] (-) TimerEvent: {}
+[29.495051] (-) TimerEvent: {}
+[29.595573] (-) TimerEvent: {}
+[29.696194] (-) TimerEvent: {}
+[29.797085] (-) TimerEvent: {}
+[29.897673] (-) TimerEvent: {}
+[29.998414] (-) TimerEvent: {}
+[30.099193] (-) TimerEvent: {}
+[30.199938] (-) TimerEvent: {}
+[30.300617] (-) TimerEvent: {}
+[30.401334] (-) TimerEvent: {}
+[30.502344] (-) TimerEvent: {}
+[30.603136] (-) TimerEvent: {}
+[30.703939] (-) TimerEvent: {}
+[30.804625] (-) TimerEvent: {}
+[30.905367] (-) TimerEvent: {}
+[31.006112] (-) TimerEvent: {}
+[31.106725] (-) TimerEvent: {}
+[31.207598] (-) TimerEvent: {}
+[31.308354] (-) TimerEvent: {}
+[31.408958] (-) TimerEvent: {}
+[31.509750] (-) TimerEvent: {}
+[31.610324] (-) TimerEvent: {}
+[31.711107] (-) TimerEvent: {}
+[31.812007] (-) TimerEvent: {}
+[31.912883] (-) TimerEvent: {}
+[32.013571] (-) TimerEvent: {}
+[32.114362] (-) TimerEvent: {}
+[32.215105] (-) TimerEvent: {}
+[32.315896] (-) TimerEvent: {}
+[32.416607] (-) TimerEvent: {}
+[32.517288] (-) TimerEvent: {}
+[32.617926] (-) TimerEvent: {}
+[32.718688] (-) TimerEvent: {}
+[32.819472] (-) TimerEvent: {}
+[32.920356] (-) TimerEvent: {}
+[33.021106] (-) TimerEvent: {}
+[33.121901] (-) TimerEvent: {}
+[33.222641] (-) TimerEvent: {}
+[33.323342] (-) TimerEvent: {}
+[33.424065] (-) TimerEvent: {}
+[33.524725] (-) TimerEvent: {}
+[33.625471] (-) TimerEvent: {}
+[33.726212] (-) TimerEvent: {}
+[33.827038] (-) TimerEvent: {}
+[33.927645] (-) TimerEvent: {}
+[34.028219] (-) TimerEvent: {}
+[34.128956] (-) TimerEvent: {}
+[34.229601] (-) TimerEvent: {}
+[34.330248] (-) TimerEvent: {}
+[34.430840] (-) TimerEvent: {}
+[34.531546] (-) TimerEvent: {}
+[34.632352] (-) TimerEvent: {}
+[34.733020] (-) TimerEvent: {}
+[34.833812] (-) TimerEvent: {}
+[34.934547] (-) TimerEvent: {}
+[35.035303] (-) TimerEvent: {}
+[35.135906] (-) TimerEvent: {}
+[35.236684] (-) TimerEvent: {}
+[35.337392] (-) TimerEvent: {}
+[35.414422] (uav_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable uav_main\x1b[0m\n'}
+[35.437674] (-) TimerEvent: {}
+[35.538594] (-) TimerEvent: {}
+[35.639160] (-) TimerEvent: {}
+[35.739900] (-) TimerEvent: {}
+[35.840648] (-) TimerEvent: {}
+[35.941201] (-) TimerEvent: {}
+[36.042015] (-) TimerEvent: {}
+[36.142831] (-) TimerEvent: {}
+[36.243502] (-) TimerEvent: {}
+[36.344271] (-) TimerEvent: {}
+[36.445034] (-) TimerEvent: {}
+[36.545661] (-) TimerEvent: {}
+[36.646481] (-) TimerEvent: {}
+[36.747171] (-) TimerEvent: {}
+[36.847885] (-) TimerEvent: {}
+[36.948569] (-) TimerEvent: {}
+[37.049300] (-) TimerEvent: {}
+[37.149945] (-) TimerEvent: {}
+[37.250633] (-) TimerEvent: {}
+[37.351348] (-) TimerEvent: {}
+[37.452111] (-) TimerEvent: {}
+[37.552914] (-) TimerEvent: {}
+[37.653440] (-) TimerEvent: {}
+[37.754000] (-) TimerEvent: {}
+[37.812307] (uav_cpp) StdoutLine: {'line': b'[100%] Built target uav_main\n'}
+[37.839062] (uav_cpp) CommandEnded: {'returncode': 0}
+[37.854316] (-) TimerEvent: {}
+[37.917787] (uav_cpp) JobProgress: {'identifier': 'uav_cpp', 'progress': 'install'}
+[37.941588] (uav_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/STAD_mw/uav_cpp/build/uav_cpp'], 'cwd': '/root/STAD_mw/uav_cpp/build/uav_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/root/STAD_mw'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/root/fastdds.xml'), ('DISPLAY', '10.132.175.149:0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/STAD_mw/uav_cpp/build/uav_cpp'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[37.954580] (-) TimerEvent: {}
+[37.960784] (uav_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.961829] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/lib/uav_cpp/uav_main\n'}
+[37.970837] (uav_cpp) StdoutLine: {'line': b'-- Set runtime path of "/root/STAD_mw/uav_cpp/install/uav_cpp/lib/uav_cpp/uav_main" to ""\n'}
+[37.971802] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/ament_index/resource_index/package_run_dependencies/uav_cpp\n'}
+[37.975447] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/ament_index/resource_index/parent_prefix_path/uav_cpp\n'}
+[37.977326] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/ament_prefix_path.sh\n'}
+[37.978128] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/ament_prefix_path.dsv\n'}
+[37.979027] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/path.sh\n'}
+[37.980426] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/environment/path.dsv\n'}
+[37.981675] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.bash\n'}
+[37.982715] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.sh\n'}
+[37.983454] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.zsh\n'}
+[37.984382] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/local_setup.dsv\n'}
+[37.985061] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/package.dsv\n'}
+[37.985955] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/ament_index/resource_index/packages/uav_cpp\n'}
+[37.987173] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.988031] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/cmake/uav_cppConfig.cmake\n'}
+[37.988724] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/cmake/uav_cppConfig-version.cmake\n'}
+[37.989409] (uav_cpp) StdoutLine: {'line': b'-- Installing: /root/STAD_mw/uav_cpp/install/uav_cpp/share/uav_cpp/package.xml\n'}
+[37.996317] (uav_cpp) CommandEnded: {'returncode': 0}
+[38.054869] (-) TimerEvent: {}
+[38.155786] (-) TimerEvent: {}
+[38.174232] (uav_cpp) JobEnded: {'identifier': 'uav_cpp', 'rc': 0}
+[38.177990] (-) EventReactorShutdown: {}

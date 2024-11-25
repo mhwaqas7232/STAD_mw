@@ -1,0 +1,17 @@
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:[m[K In function ‘[01m[Kbool offb_ctrl_pos_global(mavsdk::Offboard&, mavsdk::Telemetry&)[m[K’:
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:164:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffboard_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  164 |     Offboard::Result [01;35m[Koffboard_result[m[K = offboard.start();
+      |                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:43:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_z[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   43 | double [01;35m[Ktarget_z[m[K = 0;
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:96:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_x[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   96 |         double [01;35m[Kcurrent_x[m[K = X;
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:97:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   97 |         double [01;35m[Kcurrent_y[m[K = Y;
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:[m[K In function ‘[01m[Kvoid command_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/STAD_mw/uav_cpp/src/uav_main/main.cpp:194:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  194 |             ConnectionResult [01;35m[Kconnection_result[m[K = mavsdk.add_any_connection("udp://:14540");
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
